@@ -49,13 +49,27 @@ If it doesnt install, then driver signing need to be temporarily disabled in Win
 ![image](https://user-images.githubusercontent.com/98122529/205452280-d7138e6f-7c06-4104-b1f4-7cd581e6c805.png)
 
 802.11n channel width for 2.4GHz - 20MHz (this will decrease throughput / download speeds, leaving this to Auto doesnt affect throughput / download speeds)
+
 802.11n channel width for 5.2GHz - 20MHz (this will decrease throughput / download speeds, leaving this to Auto doesnt affect throughput / download speeds)
+
 Classroom Mode - Enabled (this might be the only option you need to change. However toggling this to ENABLED the Steam Deck won't be able to connect to 2.4GHz networks.)
+
 Roaming Aggresiveness - Disabled (this setting reduced ping spikes / lag when Steam Deck is on a different floor than the WiFi AP. I dont have roaming on my WiFI AP. If you do use roaming, you might want to toggle this to least aggressive
+
 Transmit Power - Medium
+
 Wireless Mode - 802.11ac
 
 3. Press OK to apply the settings.
 
+## Before and After
+The image on the left is a simple ping test using stock drivers.
+
+The image on the right is a simple ping test after using the unlocked drivers and changing the WiFi settings.
+Both tests are performed in the same spot - Steam Deck is on 2nd floor while WiFi AP is in a different floor.
+
+Signal strenght is at 100% for both test, but using the stock drivers there are random ping spikes.
+
+![image](https://user-images.githubusercontent.com/98122529/205453768-301b9e22-57ef-4574-bd78-a002a61bb9ac.png)
 
 
