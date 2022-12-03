@@ -7,10 +7,10 @@ Steam Deck running Windows 10 / Windows 11 has the dreaded issue of "ping spikes
 
 The issue is non-existent if Steam Deck is plugged in to charger. I've tried several power management settings, changing WiFi settings and several driver versions but this doesnt seem to fix the issue.
 
-However after several testing I was able to find the optimal combination that works OK for my environment. I am now able to play and enjoy online games.
+However after several testing I was able to find the optimal combination that works OK for my environment. I am now able to play and enjoy online games without getting tied up to the charger.
 
 ## Disclaimer
-Troubleshooting WiFi issues can be cumbersome as there are a lot of factors involved. The steps I have outlined here worked for my environment - it may / may not work for your environment but it is worth to try and see if there is a noticeable difference. On my end it is night and day difference - I am now able to enjoy online games on my Steam Deck running Windows.
+Troubleshooting WiFi issues can be cumbersome as there are a lot of factors involved. The steps I have outlined here worked for my environment - it may / may not work for your environment but it is worth to try and see if there is a noticeable difference. On my end it is night and day difference - I am now able to enjoy online games on my Steam Deck running Windows without getting tied up to the charger.
 
 ## Requirement
 1. Realtek 8822CE Unlocked Drivers - [more info here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/)
@@ -34,14 +34,14 @@ Troubleshooting WiFi issues can be cumbersome as there are a lot of factors invo
 ### 6. Navigate to where the drivers were extracted and press Next
 ![image](https://user-images.githubusercontent.com/98122529/205451810-16def79c-0fa3-42e5-b39f-db1001ed751d.png)
 
-### 7. Wait unitl driver install is finished.
+### 7. Wait until driver install is finished.
 ![image](https://user-images.githubusercontent.com/98122529/205451824-08e80f37-1266-42f3-ab78-f76d420b5eb7.png)
 
-### 8. Once the install is done it will show up as RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E
+### 8. Once the install is finished it will show up as RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E
 ![image](https://user-images.githubusercontent.com/98122529/205451898-8096d0ca-b365-4238-b08f-9b0f05e89aba.png)
 ![image](https://user-images.githubusercontent.com/98122529/205451909-e57b9415-8068-44ca-b118-49cae914617f.png)
 
-If it doesnt install, then driver signing need to be temporarily disabled in Windows. Look at the section labelled Disable Driver Signing.
+If the unlocked driver doesn't install, then driver signing needs to be temporarily disabled in Windows. Look at the section *Disable Driver Signing*.
 
 ## Changing WiFi Driver Settings
 ### 1. Go to Device Manager. Expand Network Adapters then double click RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E. If it  shows up as Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC then the unlocked drivers are not yet installed. Follow the steps Downloading and Installing the Unlocked Drivers
@@ -71,8 +71,10 @@ The image on the right is a simple ping test after using the unlocked drivers an
 
 Both tests are performed in the same spot - Steam Deck is on 2nd floor while WiFi AP is in a different floor.
 
-Signal strength is at 100% for both test. Using the stock drivers there are random ping spikes, while using the unlocked drivers and changing the WiFi settings its a clean1-2ms. This helped in online games.
+Signal strength is at 100% for both test. Using the stock drivers there are random ping spikes, while using the unlocked drivers and changing the WiFi settings its a clean1-2ms. This helped alot in online games making it playable and enjoyable.
 
 ![image](https://user-images.githubusercontent.com/98122529/205453768-301b9e22-57ef-4574-bd78-a002a61bb9ac.png)
 
 
+## OPTIONAL - Temporarily Disable Driver Signing
+If the unlocked drivers doesn't install, this is because of driver signing. Temporarily disable driver signing, install the unlocked driver, then re-enable driver signing.
