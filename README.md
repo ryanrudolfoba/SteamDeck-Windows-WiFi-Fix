@@ -15,7 +15,7 @@ Troubleshooting WiFi issues can be cumbersome as there are a lot of factors invo
 ## Requirement
 1. Realtek 8822CE Unlocked Drivers - [more info here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/)
 
-## Downloading and Intalling the Unlocked Drivers
+## Downloading and Installing the Unlocked Drivers
 ### 1. Download the archive containing the unlocked drivers [here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/) (click the link on post#2).
 ![image](https://user-images.githubusercontent.com/98122529/205451596-4e4d533d-6000-480a-abca-db3f0dccb8bb.png)
 
@@ -38,6 +38,35 @@ Troubleshooting WiFi issues can be cumbersome as there are a lot of factors invo
 ![image](https://user-images.githubusercontent.com/98122529/205451824-08e80f37-1266-42f3-ab78-f76d420b5eb7.png)
 
 ### 8. Once the install is finished it will show up as RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E
+![image](https://user-images.githubusercontent.com/98122529/205451898-8096d0ca-b365-4238-b08f-9b0f05e89aba.png)
+![image](https://user-images.githubusercontent.com/98122529/205451909-e57b9415-8068-44ca-b118-49cae914617f.png)
+
+### 9. If Windows says that it is already using the latest / best driver then do the steps below -
+#### 9a. Go to Device Manager. Expand Network Adapters then double click Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC.
+![image](https://user-images.githubusercontent.com/98122529/205451702-42416cb4-ce91-46fd-84ff-7d2b6c1f3f29.png)
+
+#### 9b. Go to the Driver tab, then click Update Driver.
+![image](https://user-images.githubusercontent.com/98122529/205451753-10da05bf-162a-40d6-b553-3915770d7b13.png)
+
+#### 9c. Select Browse my computer for drivers.
+![image](https://user-images.githubusercontent.com/98122529/205451782-7966cc04-21ee-4aa6-baea-4cc3c412a8e7.png)
+
+#### 9d. Select Let me pick from a list of drivers
+![image](https://user-images.githubusercontent.com/98122529/205770491-c75ff730-4b67-4e19-8176-c60037d5ffd1.png)
+
+#### 9e. Press Browse and navigate to the folder where the driver was extracted.
+![image](https://user-images.githubusercontent.com/98122529/205770610-5d611a48-acb9-4272-a41c-992466c03df7.png)
+
+#### 9f. Navigate to the driver folder until you see netwttwlane.
+![image](https://user-images.githubusercontent.com/98122529/205770662-dd561f14-0a94-414b-9700-e42532afa271.png)
+
+#### 9g. Press Open > Next. And now it will show RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E
+![image](https://user-images.githubusercontent.com/98122529/205770926-9a1b2a8b-e05a-403f-96f8-49343927c78e.png)
+
+#### 9h. Press Next and wait until driver install is finished.
+![image](https://user-images.githubusercontent.com/98122529/205451824-08e80f37-1266-42f3-ab78-f76d420b5eb7.png)
+
+#### 9i. Once the install is finished it will show up as RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E
 ![image](https://user-images.githubusercontent.com/98122529/205451898-8096d0ca-b365-4238-b08f-9b0f05e89aba.png)
 ![image](https://user-images.githubusercontent.com/98122529/205451909-e57b9415-8068-44ca-b118-49cae914617f.png)
 
