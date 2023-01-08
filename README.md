@@ -12,6 +12,9 @@ However after several testing I was able to find the optimal combination that wo
 ## Disclaimer
 Troubleshooting WiFi issues can be cumbersome as there are a lot of factors involved. The steps I have outlined here worked for my environment - it may / may not work for your environment but it is worth to try and see if there is a noticeable difference. On my end it is night and day difference - I am now able to enjoy online games on my Steam Deck running Windows without getting tied up to the charger.
 
+## What's new?
+[Updated the document to simplify the install process.](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/issues/1)
+
 ## Requirement
 1. Realtek 8822CE Unlocked Drivers - [more info here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/)
 
@@ -22,55 +25,16 @@ Troubleshooting WiFi issues can be cumbersome as there are a lot of factors invo
 ### 2. Extract the archive.
 ![image](https://user-images.githubusercontent.com/98122529/205451672-c5250ec8-00ad-4771-bb54-b6eadeda4700.png)
 
-### 3. Go to Device Manager. Expand Network Adapters then double click Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC.
-![image](https://user-images.githubusercontent.com/98122529/205451702-42416cb4-ce91-46fd-84ff-7d2b6c1f3f29.png)
+### 3.Go to the folder where the archive was extracted. Right-click setup.bat and select "Run as Administrator".
+![image](https://user-images.githubusercontent.com/98122529/211196355-33d65494-8208-49de-8905-b29859a08397.png)
 
-### 4. Go to the Driver tab, then click Update Driver.
-![image](https://user-images.githubusercontent.com/98122529/205451753-10da05bf-162a-40d6-b553-3915770d7b13.png)
+### 4. The UAC prompt will appear - press YES.
 
-### 5. Select Browse my computer for drivers.
-![image](https://user-images.githubusercontent.com/98122529/205451782-7966cc04-21ee-4aa6-baea-4cc3c412a8e7.png)
+### 5. This will open up a command prompt window and automatically install the certiticate needed and the unlocked WiFi driver. Close the window / press any key when it's completed.
+![image](https://user-images.githubusercontent.com/98122529/211196534-49944fe2-2159-421a-852c-1a2e79d09732.png)
 
-### 6. Navigate to where the drivers were extracted and press Next
-![image](https://user-images.githubusercontent.com/98122529/205451810-16def79c-0fa3-42e5-b39f-db1001ed751d.png)
-
-### 7. Wait until driver install is finished.
-![image](https://user-images.githubusercontent.com/98122529/205451824-08e80f37-1266-42f3-ab78-f76d420b5eb7.png)
-
-### 8. Once the install is finished it will show up as RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E
-![image](https://user-images.githubusercontent.com/98122529/205451898-8096d0ca-b365-4238-b08f-9b0f05e89aba.png)
+### 6. Driver install complete! Go to Device Manager to verify - Expand Network Adapters and it will show RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E.
 ![image](https://user-images.githubusercontent.com/98122529/205451909-e57b9415-8068-44ca-b118-49cae914617f.png)
-
-### 9. If Windows says that it is already using the latest / best driver then do the steps below -
-#### 9a. Go to Device Manager. Expand Network Adapters then double click Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC.
-![image](https://user-images.githubusercontent.com/98122529/205451702-42416cb4-ce91-46fd-84ff-7d2b6c1f3f29.png)
-
-#### 9b. Go to the Driver tab, then click Update Driver.
-![image](https://user-images.githubusercontent.com/98122529/205451753-10da05bf-162a-40d6-b553-3915770d7b13.png)
-
-#### 9c. Select Browse my computer for drivers.
-![image](https://user-images.githubusercontent.com/98122529/205451782-7966cc04-21ee-4aa6-baea-4cc3c412a8e7.png)
-
-#### 9d. Select Let me pick from a list of drivers
-![image](https://user-images.githubusercontent.com/98122529/205770491-c75ff730-4b67-4e19-8176-c60037d5ffd1.png)
-
-#### 9e. Press Browse and navigate to the folder where the driver was extracted.
-![image](https://user-images.githubusercontent.com/98122529/205770610-5d611a48-acb9-4272-a41c-992466c03df7.png)
-
-#### 9f. Navigate to the driver folder until you see netwttwlane.
-![image](https://user-images.githubusercontent.com/98122529/205770662-dd561f14-0a94-414b-9700-e42532afa271.png)
-
-#### 9g. Press Open > Next. And now it will show RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E
-![image](https://user-images.githubusercontent.com/98122529/205770926-9a1b2a8b-e05a-403f-96f8-49343927c78e.png)
-
-#### 9h. Press Next and wait until driver install is finished.
-![image](https://user-images.githubusercontent.com/98122529/205451824-08e80f37-1266-42f3-ab78-f76d420b5eb7.png)
-
-#### 9i. Once the install is finished it will show up as RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E
-![image](https://user-images.githubusercontent.com/98122529/205451898-8096d0ca-b365-4238-b08f-9b0f05e89aba.png)
-![image](https://user-images.githubusercontent.com/98122529/205451909-e57b9415-8068-44ca-b118-49cae914617f.png)
-
-If the unlocked driver doesn't install, then driver signing needs to be temporarily disabled in Windows. Look at the section *Disable Driver Signing*.
 
 ## Changing WiFi Driver Settings
 ### 1. Go to Device Manager. Expand Network Adapters then double click RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E. If it  shows up as Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC then the unlocked drivers are not yet installed. Follow the steps Downloading and Installing the Unlocked Drivers
@@ -103,7 +67,3 @@ Both tests are performed in the same spot - Steam Deck is on 2nd floor while WiF
 Signal strength is at 100% for both test. Using the stock drivers there are random ping spikes, while using the unlocked drivers and changing the WiFi settings its a clean1-2ms. This helped alot in online games making it playable and enjoyable.
 
 ![image](https://user-images.githubusercontent.com/98122529/205453768-301b9e22-57ef-4574-bd78-a002a61bb9ac.png)
-
-
-## OPTIONAL - Temporarily Disable Driver Signing
-If the unlocked drivers doesn't install, this is because of driver signing. Temporarily disable driver signing, install the unlocked driver, then re-enable driver signing.
