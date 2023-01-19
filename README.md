@@ -13,7 +13,7 @@ However after several testing I was able to find the optimal combination that wo
 Troubleshooting WiFi issues can be cumbersome as there are a lot of factors involved. The steps I have outlined here worked for my environment - it may / may not work for your environment but it is worth to try and see if there is a noticeable difference. On my end it is night and day difference - I am now able to enjoy online games on my Steam Deck running Windows without getting tied up to the charger.
 
 ## !! WARNING !! WARNING !!
-Majority of users are reporting battery drain issues [here](https://www.reddit.com/r/WindowsOnDeck/comments/10ehcp3/fix_for_wifi_lagspikes_without_killer_wifi_driver/) and [here](https://www.reddit.com/r/WindowsOnDeck/comments/10c65hi/battery_drain_with_killer_wifi_driver/) when using this unlocked driver. It is recommended to use this driver instead which you can download direct from the MS catalog [here.](https://www.catalog.update.microsoft.com/Search.aspx?q=2024.10.138.3)
+Majority of users are reporting battery drain issues [here](https://www.reddit.com/r/WindowsOnDeck/comments/10ehcp3/fix_for_wifi_lagspikes_without_killer_wifi_driver/) and [here](https://www.reddit.com/r/WindowsOnDeck/comments/10c65hi/battery_drain_with_killer_wifi_driver/) when using this unlocked driver. It is recommended to use the latest driver which can be downloaded direct from the MS catalog [here.](https://www.catalog.update.microsoft.com/Search.aspx?q=2024.10.138.3)
 
 However when I tried the driver from the MS catalog I am back to where I started - ping spikes all over the place making online games unplayable. I will continue to use the unlocked drivers + WiFi settings as that is the best combination for my environment.
 
