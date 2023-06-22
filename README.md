@@ -6,8 +6,8 @@ All credits goes to THEBOSS619 for this unlocked driver! [Check the on-going dis
 I've added a simple script that automates the configuration of the Wi-Fi settings that works good in my environment. This may / may not work for your environment!
 
 ## Disclaimer
-1. Do this at your own risk! \
-2. This is for educational and research purposes only! \
+1. Do this at your own risk!
+2. This is for educational and research purposes only!
 
 I've been using this unlocked driver since December 2022 and a lot of users are reporting success too. Just a standard disclaimer to protect myself from any liability.
 
