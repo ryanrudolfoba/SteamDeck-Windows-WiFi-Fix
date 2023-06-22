@@ -19,19 +19,20 @@ I've been using this unlocked driver since December 2022 and a lot of users are 
 2. Edited the setup.bat to include the configuration settings that works good in my environment. I am now getting a consistent ~1ms ping using the unlocked driver.
 
 ## Installation Steps
-1. Click the green code button and press Download Zip. \
+1. Open a web browser and go to the url - https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi 
+2. Click the green code button and press Download Zip. \
    ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/fe5c5d36-33d9-409c-8cb8-fa62d667d5b1)
 
-2. Go to the downloads folder and extract the zip. \
+3. Go to the downloads folder and extract the zip. \
    ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/ca6ca7e7-37a2-426a-a11d-4da0d7854fda)
 
-3. Go to the extracted folder. Right click Setup, then select Run-As Administrator. \
-   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/98a356ff-4bb2-4070-884a-90e8712b006d)
+4. Go to the extracted folder. Right click Setup, then select Run-As Administrator. \
+   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/f6303939-b732-42fb-83bd-4513675b49f2)
 
-4. Wait for the install to finish. This will take several minutes! \
-   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/f77787b8-e5bd-4827-b414-bf489335b2a4)
+5. Wait for the install to finish. This will take several minutes! \
+   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/36d2e762-e3a9-441f-922e-34de698a1d00)
 
-5. Once done, verify in Device Manager it will show up as RTK Killer Wifi. Driver date Apr18 2023. \
+6. Once done, verify in Device Manager it will show up as RTK Killer Wifi. Driver date Apr18 2023. \
    ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/e8081a83-c2fe-4b9e-b4df-79a738811ce5)
 
 
