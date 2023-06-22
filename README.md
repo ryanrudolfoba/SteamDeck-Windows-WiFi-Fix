@@ -1,68 +1,39 @@
 # Steam Deck WiFi Fix for Windows
 
 ## About
-This repository contains the instructions on how to fix the WiFi issue for Steam Deck running Windows.
+All credits goes to THEBOSS619 for this unlocked driver! [Check the on-going discussion here.](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/)
 
-Steam Deck running Windows 10 / Windows 11 has the dreaded issue of "ping spikes / ping latency / ping lag" when running on battery / unplugged. This makes online game unplayable when running on battery.
-
-The issue is non-existent if Steam Deck is plugged in to charger. I've tried several power management settings, changing WiFi settings and several driver versions but this doesnt seem to fix the issue.
-
-However after several testing I was able to find the optimal combination that works OK for my environment. I am now able to play and enjoy online games without getting tied up to the charger.
+I've added a simple script that automates the configuration of the Wi-Fi settings that works good in my environment. This may / may not work for your environment!
 
 ## Disclaimer
-Troubleshooting WiFi issues can be cumbersome as there are a lot of factors involved. The steps I have outlined here worked for my environment - it may / may not work for your environment but it is worth to try and see if there is a noticeable difference. On my end it is night and day difference - I am now able to enjoy online games on my Steam Deck running Windows without getting tied up to the charger.
+1. Do this at your own risk! \
+2. This is for educational and research purposes only! \
 
-## !! WARNING !! WARNING !!
-Majority of users are reporting battery drain issues [here](https://www.reddit.com/r/WindowsOnDeck/comments/10ehcp3/fix_for_wifi_lagspikes_without_killer_wifi_driver/) and [here](https://www.reddit.com/r/WindowsOnDeck/comments/10c65hi/battery_drain_with_killer_wifi_driver/) when using this unlocked driver. It is recommended to use the latest driver which can be downloaded direct from the MS catalog [here.](https://www.catalog.update.microsoft.com/Search.aspx?q=2024.10.138.3)
+I've been using this unlocked driver since December 2022 and a lot of users are reporting success too. Just a standard disclaimer to protect myself from any liability.
 
-However when I tried the driver from the MS catalog I am back to where I started - ping spikes all over the place making online games unplayable. I will continue to use the unlocked drivers + WiFi settings as that is the best combination for my environment.
-
-Use the unlocked drivers at your own risk!
+## Video Tutorial
+**[If you prefer a video tutorial then click here.](https://youtu.be/ZquAgs4M2ik)**
 
 ## What's new?
-[Updated the document to simplify the install process.](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/issues/1)
+1. Uploaded the unlocked driver from [here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/) to this github repo for easy installation. Unlocked driver is based from the Windows Update Catalog dated Apr18 2023.
+2. Edited the setup.bat to include the configuration settings that works good in my environment. I am now getting a consistent ~1ms ping using the unlocked driver.
 
-## Requirement
-1. Realtek 8822CE Unlocked Drivers - [more info here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/)
+## Installation Steps
+1. Click the green code button and press Download Zip. \
+   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/fe5c5d36-33d9-409c-8cb8-fa62d667d5b1)
 
-## Downloading and Installing the Unlocked Drivers
-### 1. Download the archive containing the unlocked drivers [here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/) (click the link on post#2).
-![image](https://user-images.githubusercontent.com/98122529/205451596-4e4d533d-6000-480a-abca-db3f0dccb8bb.png)
+2. Go to the downloads folder and extract the zip. \
+   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/ca6ca7e7-37a2-426a-a11d-4da0d7854fda)
 
-### 2. Extract the archive.
-![image](https://user-images.githubusercontent.com/98122529/205451672-c5250ec8-00ad-4771-bb54-b6eadeda4700.png)
+3. Go to the extracted folder. Right click Setup, then select Run-As Administrator. \
+   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/98a356ff-4bb2-4070-884a-90e8712b006d)
 
-### 3.Go to the folder where the archive was extracted. Right-click setup.bat and select "Run as Administrator".
-![image](https://user-images.githubusercontent.com/98122529/211196355-33d65494-8208-49de-8905-b29859a08397.png)
+4. Wait for the install to finish. This will take several minutes! \
+   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/f77787b8-e5bd-4827-b414-bf489335b2a4)
 
-### 4. The UAC prompt will appear - press YES.
+5. Once done, verify in Device Manager it will show up as RTK Killer Wifi. Driver date Apr18 2023. \
+   ![image](https://github.com/ryanrudolfoba/SteamDeckWindowsFixForWiFi/assets/98122529/e8081a83-c2fe-4b9e-b4df-79a738811ce5)
 
-### 5. This will open up a command prompt window and automatically install the certiticate needed and the unlocked WiFi driver. Close the window / press any key when it's completed.
-![image](https://user-images.githubusercontent.com/98122529/211196534-49944fe2-2159-421a-852c-1a2e79d09732.png)
-
-### 6. Driver install complete! Go to Device Manager to verify - Expand Network Adapters and it will show RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E.
-![image](https://user-images.githubusercontent.com/98122529/205451909-e57b9415-8068-44ca-b118-49cae914617f.png)
-
-## Changing WiFi Driver Settings
-### 1. Go to Device Manager. Expand Network Adapters then double click RTK Killer Wi-Fi 5 8822CE Xtreme 802.11ac PCI-E. If it  shows up as Realtek 8822CE Wireless LAN 802.11ac PCI-E NIC then the unlocked drivers are not yet installed. Follow the steps Downloading and Installing the Unlocked Drivers
-![image](https://user-images.githubusercontent.com/98122529/205452113-0802dca7-5f0a-44a8-8b71-7feebe68cc60.png)
-
-### 2. Click the Advanced tab and modify the settings
-![image](https://user-images.githubusercontent.com/98122529/205452280-d7138e6f-7c06-4104-b1f4-7cd581e6c805.png)
-
-  802.11n channel width for 2.4GHz - 20MHz (this will decrease throughput / download speeds, leaving this to Auto doesnt affect throughput / download speeds)
-
-  802.11n channel width for 5.2GHz - 20MHz (this will decrease throughput / download speeds, leaving this to Auto doesnt affect throughput / download speeds)
-
-  Classroom Mode - Enabled (this might be the only option you need to change. However toggling this to ENABLED the Steam Deck won't be able to connect to 2.4GHz networks.)
-
-  Roaming Aggresiveness - Disabled (this setting reduced ping spikes / lag when Steam Deck is on a different floor than the WiFi AP. I dont have roaming on my WiFI AP. If you do use roaming, you might want to toggle this to least aggressive
-
-  Transmit Power - Medium
-
-  Wireless Mode - 802.11ac
-
-### 3. Press OK to apply the settings.
 
 ## Before and After
 The image on the left is a simple ping test using stock drivers.
