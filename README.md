@@ -1,7 +1,7 @@
 # Steam Deck WiFi Fix for Windows
 
 ## About
-All credits goes to THEBOSS619 for this unlocked driver! [Check the on-going discussion here.](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/)
+All credits goes to THEBOSS619 [(GitHub profile here)](https://github.com/THEBOSS619?tab=repositories) for this unlocked driver! [Check the on-going discussion here.](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/)
 
 I've added a simple script that automates the configuration of the Wi-Fi settings that works good in my environment. This may / may not work for your environment!
 
