@@ -5,6 +5,17 @@ All credits goes to THEBOSS619 [(GitHub profile here)](https://github.com/THEBOS
 
 I've added a simple script that automates the configuration of the Wi-Fi settings that works good in my environment. This may / may not work for your environment!
 
+> **NOTE**\
+> If you are going to use this script for a video tutorial, PLEASE reference on your video where you got the script! This will make the support process easier!
+> And don't forget to give a shoutout to [@10MinuteSteamDeckGamer](https://www.youtube.com/@10MinuteSteamDeckGamer/) / ryanrudolf from the Philippines!
+>
+
+<b> If you like my work please show support by subscribing to my [YouTube channel @10MinuteSteamDeckGamer.](https://www.youtube.com/@10MinuteSteamDeckGamer/) </b> <br>
+<b> I'm just passionate about Linux, Windows, how stuff works, and playing retro and modern video games on my Steam Deck! </b>
+<p align="center">
+<a href="https://www.youtube.com/@10MinuteSteamDeckGamer/"> <img src="https://github.com/ryanrudolfoba/SteamDeck-Clover-dualboot/blob/main/10minute.png"/> </a>
+</p>
+
 ## Disclaimer
 1. Do this at your own risk!
 2. This is for educational and research purposes only!
