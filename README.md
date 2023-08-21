@@ -33,7 +33,15 @@ I've been using this unlocked driver since December 2022 and a lot of users are 
 ## Video Tutorial
 **[If you prefer a video tutorial then click here.](https://youtu.be/ZquAgs4M2ik)**
 
-## What's new?
+## What's new as of Aug 21 2023?
+1. Uploaded the unlocked driver from [here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/) to this github repo for easy installation. Unlocked driver is based from the Windows Update Catalog dated Jun 26 2023. \
+![image](https://github.com/ryanrudolfoba/SteamDeck-Windows-WiFi-Fix/assets/98122529/9b8120c3-df9d-4cc8-870e-c1e111dcce91)
+
+2. Edited the setup.bat so that both 2.4GHz and 5GHz networks will be available after installation.
+
+
+
+## What's new as of Jun 22 2023?
 1. Uploaded the unlocked driver from [here](https://www.techpowerup.com/forums/threads/realtek-8822ce-modded-wireless-drivers-with-enabled-advanced-features.283920/) to this github repo for easy installation. Unlocked driver is based from the Windows Update Catalog dated Apr18 2023.
 2. Edited the setup.bat to include the configuration settings that works good in my environment. I am now getting a consistent ~1ms ping using the unlocked driver.
 
