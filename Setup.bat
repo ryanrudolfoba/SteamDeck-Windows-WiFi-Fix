@@ -46,10 +46,23 @@ echo Set-NetAdapterAdvancedProperty -Name "Wi-Fi" -DisplayName "TxPowerControl" 
 echo Set-NetAdapterAdvancedProperty -Name "Wi-Fi" -DisplayName "VHT 2.4G IOT" -DisplayValue "Disable" >> settings.ps1
 echo Set-NetAdapterAdvancedProperty -Name "Wi-Fi" -DisplayName "Wake on Magic Packet" -DisplayValue "Disabled" >> settings.ps1
 echo Set-NetAdapterAdvancedProperty -Name "Wi-Fi" -DisplayName "Wake on Pattern Match" -DisplayValue "Disabled" >> settings.ps1
-echo Set-NetAdapterAdvancedProperty -Name "Wi-Fi" -DisplayName "Wireless Mode" -DisplayValue "1. 802.11ac" >> settings.ps1
+echo Set-NetAdapterAdvancedProperty -Name "Wi-Fi" -DisplayName "Wireless Mode" -DisplayValue "Auto" >> settings.ps1
 powershell -executionpolicy bypass -file settings.ps1
+echo.
+echo.
+echo *********************************************************
+echo Wi-Fi driver install and Wi-Fi settings import completed!
+echo *********************************************************
+echo.
+echo If there are a bunch of RED text error messages then something went wrong!
+echo 1. Make sure language / locale is set as English.
+echo 2. Make sure that the Wi-Fi interface name is set as Wi-Fi. 
+echo 3. Make sure that in Device Manager - Network Adapters it shows up as RTK Killer Wi-Fi.
+echo 4. Right-click setup.bat and run as administrator.
+goto end
+
+:end
 del /q settings.ps1
 echo.
-echo Import complete!
 pause
 exit
