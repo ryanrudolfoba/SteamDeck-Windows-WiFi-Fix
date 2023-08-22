@@ -38,7 +38,7 @@ I've been using this unlocked driver since December 2022 and a lot of users are 
 ![image](https://github.com/ryanrudolfoba/SteamDeck-Windows-WiFi-Fix/assets/98122529/9b8120c3-df9d-4cc8-870e-c1e111dcce91)
 
 2. Edited the setup.bat so that both 2.4GHz and 5GHz networks will be available after installation.
-
+3. Added simple logic in setup.bat. Change from InterfaceName to InterfaceDescription.
 
 
 ## What's new as of Jun 22 2023?
